@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.lato-regular {
+  font-family: "Lato", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.contact-list-section {
+  padding-left: 0;
+  padding-right: 0;
+  border-right: 2px solid #ddd;
+}
+.contact-details-section {
+  padding-left: 0;
+  padding-right: 0;
+}
+.contact-details-section .navbar .container {
+  justify-content: end;
+}
+.contact-card {
+  cursor: pointer;
+}
+.contact-profile img {
+  border-radius: 100px;
+}
+.contact-details-card {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 80px;
+}
+.contact-details-hero img {
+  border-radius: 100px;
+}
+.contact-status {
+  font-size: 14px;
+}
+.contact-slug {
+  font-size: 14px;
+}
+h5 {
+  font-size: 18px;
+}
+.fa-solid.fa-delete-left {
+  cursor: pointer;
+}
+.contact-card:hover {
+  transition: all 0.2s ease-out 0.05s;
+  transform: translateX(10px);
+  background-color: #eee;
+}
+
+@media screen and (max-width: 576px) {
+  .contact-list-section {
+    border-right: none;
+    order: 2;
+  }
+
+  .contact-detail-section {
+    order: 1;
+  }
+}
